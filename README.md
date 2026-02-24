@@ -1,2 +1,2 @@
-# Vinayaka-Temple-backend
+# Sri-Vinayaka-Swamy-Temple
 My Village small Vinayaka Swamy Temple Website
