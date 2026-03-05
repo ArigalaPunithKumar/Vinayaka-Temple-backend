@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS temple_db;
-USE temple_db;
+CREATE DATABASE IF NOT EXISTS defaultdb;
+USE default_db;
 
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -13,4 +13,5 @@ CREATE TABLE IF NOT EXISTS bookings (
     email VARCHAR(255) NOT NULL,
     seva VARCHAR(255) NOT NULL,
     date DATE NOT NULL
+
 );
