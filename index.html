@@ -814,7 +814,8 @@
             const password = document.getElementById('password').value;
             const fullname = document.getElementById('fullname') ? document.getElementById('fullname').value : '';
 
-            const endpoint = isLoginMode ? 'https://sri-vinayaka-swamy-temple-fyjt.onrender.com/login' : 'https://sri-vinayaka-swamy-temple-fyjt.onrender.com/api/register';
+            // This is the updated endpoint line
+            const endpoint = isLoginMode ? 'https://sri-vinayaka-swamy-temple-fyjt.onrender.com/api/login' : 'https://sri-vinayaka-swamy-temple-fyjt.onrender.com/api/register';
             const bodyData = isLoginMode ? { email, password } : { email, password, fullname };
 
             try {
